@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project name="DotNetSampleProject" default="build_solution">
+  <property name="basedir" value="${project::get-base-directory()}"/>
+  <property name="build.number" value="0.0.0.666" unless="${property::exists('build.number')}" />
+
+  <target name="build_solution">
+  	<msbuild project="DotNetSampleProject.sln">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+  <target name="by_project" depends="av, deployment, myproject1, TW35744_clr, TW35744_w32">
+    <msbuild project="AssemblyVersioning/AssemblyVersioning.csproj">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+  <target name="av">
+    <msbuild project="AssemblyVersioning/AssemblyVersioning.csproj">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+  <target name="deployment">
+    <msbuild project="Deployment/Deployment.csproj">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+  <target name="myproject1">
+    <msbuild project="MyProject1/MyProject1.csproj">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+  <target name="TW35744_clr">
+    <msbuild project="TW35744/CLRProject/CLRProject.vcxproj">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+  <target name="TW35744_w32">
+    <msbuild project="TW35744/Win32Console/Win32Console.vcxproj">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="TW35744" default="build">
+  <property name="basedir" value="${project::get-base-directory()}"/>
+  <property name="build.number" value="0.0.0.666" unless="${property::exists('build.number')}" />
+
+  <target name="build">
+    <mkdir dir="${basedir}/out" />
+  	<cl outputdir="${basedir}/out" options="/clr">
+       <sources>
+         <!--include name="CLRProject/CLRProject.cpp"/-->
+         <include name="CLRProject/*.cpp"/>
+         <include name="CLRProject/*.h"/>
+       </sources>
+     </cl>
+  </target>
+
+  <target name="build_solution">
+  	<msbuild project="TW35744.sln">
+      <property name="Configuration" value="Release"/>
+    </msbuild>
+  </target>
+</project>

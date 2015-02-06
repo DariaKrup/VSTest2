@@ -1,0 +1,1 @@
+echo $host.version > host.txt

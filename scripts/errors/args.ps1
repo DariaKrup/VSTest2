@@ -1,0 +1,2 @@
+"Arguments: $($args.count)"
+$args

@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects" DefaultTargets="Build">
+  <PropertyGroup>
+    <MSBuildToolsPath32>C:\Program Files (x86)\MSBuild\12.0\bin\</MSBuildToolsPath32>
+    <MSBuildToolsRoot>C:\Program Files (x86)\MSBuild\</MSBuildToolsRoot>
+    <MSBuildFrameworkToolsPath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\</MSBuildFrameworkToolsPath>
+    <MSBuildFrameworkToolsPath32>C:\Windows\Microsoft.NET\Framework\v4.0.30319\</MSBuildFrameworkToolsPath32>
+    <MSBuildFrameworkToolsRoot>C:\Windows\Microsoft.NET\Framework\</MSBuildFrameworkToolsRoot>
+    <MSBuildRuntimeVersion>4.0.30319</MSBuildRuntimeVersion>
+    <FrameworkSDKRoot>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\</FrameworkSDKRoot>
+    <SDK35ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\</SDK35ToolsPath>
+    <SDK40ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\</SDK40ToolsPath>
+    <VCTargetsPath>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\</VCTargetsPath>
+    <VCTargetsPath10>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\</VCTargetsPath10>
+    <VCTargetsPath11>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\</VCTargetsPath11>
+    <VCTargetsPath12>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\</VCTargetsPath12>
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+    <WindowsSDK80Path>C:\Program Files (x86)\Windows Kits\8.1\</WindowsSDK80Path>
+    <Platform>Any CPU</Platform>
+    <AspNetConfiguration>Debug</AspNetConfiguration>
+    <SolutionDir>D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>DotNetSampleProject.sln</SolutionFileName>
+    <SolutionName>DotNetSampleProject</SolutionName>
+    <SolutionPath>D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\DotNetSampleProject.sln</SolutionPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{F646C4BD-2FCD-4120-B435-95DD52C57321}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{E021A41C-F73B-45A0-97EA-3BB2C70D3ADF}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BB791C2B-631D-43AF-A613-DBAA70064902}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B37DF687-E43A-4A15-AA97-3A5AD11EFE3E}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{358E55FE-ECC5-418C-9504-FF447C8C490A}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{9CFE28C8-E466-4ED2-B0A7-8BDD55A9AA17}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CD7E426E-B728-4283-AF27-30D4693E1F69}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5FFC78BA-EF69-41D8-BA93-38C16740173C}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B4C215BB-CDB8-4468-BAD2-8FC0F60F9543}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{6B00BBAA-6143-459E-B852-867049680E96}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{70716C10-6B2F-42FC-B788-51C9C7E41C80}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{380C8110-95C5-4F4F-8A1F-016BA3C852D5}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EBD46AC8-F43D-456B-9BEE-FD37024F2171}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <SolutionConfiguration Include="Debug|Any CPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{F646C4BD-2FCD-4120-B435-95DD52C57321}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{E021A41C-F73B-45A0-97EA-3BB2C70D3ADF}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BB791C2B-631D-43AF-A613-DBAA70064902}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B37DF687-E43A-4A15-AA97-3A5AD11EFE3E}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{358E55FE-ECC5-418C-9504-FF447C8C490A}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{9CFE28C8-E466-4ED2-B0A7-8BDD55A9AA17}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CD7E426E-B728-4283-AF27-30D4693E1F69}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5FFC78BA-EF69-41D8-BA93-38C16740173C}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B4C215BB-CDB8-4468-BAD2-8FC0F60F9543}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{6B00BBAA-6143-459E-B852-867049680E96}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{70716C10-6B2F-42FC-B788-51C9C7E41C80}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{380C8110-95C5-4F4F-8A1F-016BA3C852D5}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EBD46AC8-F43D-456B-9BEE-FD37024F2171}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{F646C4BD-2FCD-4120-B435-95DD52C57321}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{E021A41C-F73B-45A0-97EA-3BB2C70D3ADF}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BB791C2B-631D-43AF-A613-DBAA70064902}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B37DF687-E43A-4A15-AA97-3A5AD11EFE3E}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{358E55FE-ECC5-418C-9504-FF447C8C490A}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{9CFE28C8-E466-4ED2-B0A7-8BDD55A9AA17}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CD7E426E-B728-4283-AF27-30D4693E1F69}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5FFC78BA-EF69-41D8-BA93-38C16740173C}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B4C215BB-CDB8-4468-BAD2-8FC0F60F9543}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{6B00BBAA-6143-459E-B852-867049680E96}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{70716C10-6B2F-42FC-B788-51C9C7E41C80}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{380C8110-95C5-4F4F-8A1F-016BA3C852D5}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj" BuildProjectInSolution="False">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EBD46AC8-F43D-456B-9BEE-FD37024F2171}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj" BuildProjectInSolution="True">Debug|x64</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Release|Any CPU">
+      <Configuration>Release</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{F646C4BD-2FCD-4120-B435-95DD52C57321}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{E021A41C-F73B-45A0-97EA-3BB2C70D3ADF}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BB791C2B-631D-43AF-A613-DBAA70064902}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B37DF687-E43A-4A15-AA97-3A5AD11EFE3E}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{358E55FE-ECC5-418C-9504-FF447C8C490A}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{9CFE28C8-E466-4ED2-B0A7-8BDD55A9AA17}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CD7E426E-B728-4283-AF27-30D4693E1F69}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5FFC78BA-EF69-41D8-BA93-38C16740173C}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B4C215BB-CDB8-4468-BAD2-8FC0F60F9543}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{6B00BBAA-6143-459E-B852-867049680E96}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{70716C10-6B2F-42FC-B788-51C9C7E41C80}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{380C8110-95C5-4F4F-8A1F-016BA3C852D5}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EBD46AC8-F43D-456B-9BEE-FD37024F2171}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{F646C4BD-2FCD-4120-B435-95DD52C57321}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{E021A41C-F73B-45A0-97EA-3BB2C70D3ADF}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BB791C2B-631D-43AF-A613-DBAA70064902}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B37DF687-E43A-4A15-AA97-3A5AD11EFE3E}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{358E55FE-ECC5-418C-9504-FF447C8C490A}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{9CFE28C8-E466-4ED2-B0A7-8BDD55A9AA17}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CD7E426E-B728-4283-AF27-30D4693E1F69}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{5FFC78BA-EF69-41D8-BA93-38C16740173C}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B4C215BB-CDB8-4468-BAD2-8FC0F60F9543}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{6B00BBAA-6143-459E-B852-867049680E96}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{70716C10-6B2F-42FC-B788-51C9C7E41C80}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{380C8110-95C5-4F4F-8A1F-016BA3C852D5}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj" BuildProjectInSolution="False">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EBD46AC8-F43D-456B-9BEE-FD37024F2171}" AbsolutePath="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj" BuildProjectInSolution="True">Release|x64</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Warning Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Message Condition="'$(CurrentSolutionConfigurationContents)' != ''" Text="Building solution configuration &quot;$(Configuration)|$(Platform)&quot;." />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" />
+  </Target>
+  <Target Name="ValidateProjects">
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;MyProject1&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;MyProject1&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;MyProject1.Tests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;MyProject1.Tests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;MyProject1.Console.Tests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;MyProject1.Console.Tests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;FailedTests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;FailedTests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;PrimaryTests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;PrimaryTests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;SecondaryTests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;SecondaryTests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;EnvironmentTests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;EnvironmentTests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;Deployment&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;Deployment&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;VSTestTRX&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;VSTestTRX&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;AssemblyVersioning&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;AssemblyVersioning&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;ProjectWithIgnoredTests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;ProjectWithIgnoredTests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x64') " Text="The project &quot;OrderedTests&quot; is not selected for building in solution configuration &quot;Debug|x64&quot;." />
+    <Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x64') " Text="The project &quot;OrderedTests&quot; is not selected for building in solution configuration &quot;Release|x64&quot;." />
+  </Target>
+  <Target Name="GetSolutionConfigurationContents" Outputs="$(SolutionConfigurationContents)" />
+  <Target Name="Build" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Projects="@(ProjectReference)" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Clean">
+    <MSBuild Projects="@(ProjectReference-&gt;Reverse())" Targets="Clean" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+  </Target>
+  <Target Name="Rebuild" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Publish">
+    <MSBuild Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+  </Target>
+  <Target Name="MyProject1" Outputs="@(MyProject1BuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="MyProject1BuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyProject1:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="MyProject1:Rebuild" Outputs="@(MyProject1BuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="MyProject1BuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyProject1:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1\MyProject1.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="MyProject1_Tests" Outputs="@(MyProject1_TestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="MyProject1_TestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyProject1_Tests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="MyProject1_Tests:Rebuild" Outputs="@(MyProject1_TestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="MyProject1_TestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyProject1_Tests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Tests\MyProject1.Tests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="MyProject1_Console_Tests" Outputs="@(MyProject1_Console_TestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="MyProject1_Console_TestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyProject1_Console_Tests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="MyProject1_Console_Tests:Rebuild" Outputs="@(MyProject1_Console_TestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="MyProject1_Console_TestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyProject1_Console_Tests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\MyProject1.Console.Tests\MyProject1.Console.Tests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="FailedTests" Outputs="@(FailedTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="FailedTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="FailedTests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="FailedTests:Rebuild" Outputs="@(FailedTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="FailedTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="FailedTests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\FailedTests\FailedTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="PrimaryTests" Outputs="@(PrimaryTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="PrimaryTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="PrimaryTests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="PrimaryTests:Rebuild" Outputs="@(PrimaryTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="PrimaryTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="PrimaryTests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\PrimaryTests\PrimaryTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="SecondaryTests" Outputs="@(SecondaryTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="SecondaryTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="SecondaryTests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="SecondaryTests:Rebuild" Outputs="@(SecondaryTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="SecondaryTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="SecondaryTests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\SecondaryTests\SecondaryTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="EnvironmentTests" Outputs="@(EnvironmentTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="EnvironmentTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="EnvironmentTests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="EnvironmentTests:Rebuild" Outputs="@(EnvironmentTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="EnvironmentTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="EnvironmentTests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\EnvironmentTests\EnvironmentTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Deployment" Outputs="@(DeploymentBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="DeploymentBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Deployment:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Deployment:Rebuild" Outputs="@(DeploymentBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="DeploymentBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Deployment:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Deployment\Deployment.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="VSTestTRX" Outputs="@(VSTestTRXBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="VSTestTRXBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="VSTestTRX:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="VSTestTRX:Rebuild" Outputs="@(VSTestTRXBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="VSTestTRXBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="VSTestTRX:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\VSTestTRX\VSTestTRX.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="AssemblyVersioning" Outputs="@(AssemblyVersioningBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="AssemblyVersioningBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="AssemblyVersioning:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="AssemblyVersioning:Rebuild" Outputs="@(AssemblyVersioningBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="AssemblyVersioningBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="AssemblyVersioning:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\AssemblyVersioning\AssemblyVersioning.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="ProjectWithIgnoredTests" Outputs="@(ProjectWithIgnoredTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="ProjectWithIgnoredTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="ProjectWithIgnoredTests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="ProjectWithIgnoredTests:Rebuild" Outputs="@(ProjectWithIgnoredTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="ProjectWithIgnoredTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="ProjectWithIgnoredTests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\ProjectWithIgnoredTests\ProjectWithIgnoredTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="OrderedTests" Outputs="@(OrderedTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="OrderedTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="OrderedTests:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="OrderedTests:Rebuild" Outputs="@(OrderedTestsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="OrderedTestsBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="OrderedTests:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\OrderedTests\OrderedTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Tests32_64" Outputs="@(Tests32_64BuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Tests32_64BuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Tests32_64:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Tests32_64:Rebuild" Outputs="@(Tests32_64BuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Tests32_64BuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Tests32_64:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'D:\TeamCity\9\32060\buildAgent\work\2ba57d280033090e\Tests32_64\Tests32_64.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+</Project>

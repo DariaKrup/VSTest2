@@ -1,0 +1,2 @@
+echo $host
+callSomeNonExistingFile.exe
