@@ -8,14 +8,21 @@ namespace FailedTests
     {
         [TestMethod]
         [TestCategory("failed")]
-        public void ShouldFail()
+        public void With Space()
+        {
+            Assert.Fail("Failed as expected");
+        }
+        
+        [TestMethod]
+        [TestCategory("failed")]
+        public void Always()
         {
             Assert.Fail("Failed as expected");
         }
 
         [TestMethod]
         [TestCategory("failed")]
-        public void ShouldFailException()
+        public void With.Dot()
         {
             throw new Exception("Failed due to exception");
         }
