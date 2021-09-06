@@ -8,7 +8,7 @@ namespace FailedTests
     {
         [TestMethod]
         [TestCategory("failed")]
-        public void With_Underscore()
+        public void A()
         {
             Assert.Fail("Failed as expected");
         }
@@ -17,7 +17,7 @@ namespace FailedTests
 
         [TestMethod]
         [TestCategory("failed")]
-        public void With.Dot()
+        public void ABC()
         {
             throw new Exception("Failed due to exception");
         }
