@@ -13,6 +13,12 @@ namespace FailedTests
             Assert.Fail("Failed as expected");
         }
         
+        [TestMethod]
+        [TestCategory("failed")]
+        public void AB()
+        {
+            Assert.Fail("Failed as expected too");
+        }
 
 
         [TestMethod]
