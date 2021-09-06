@@ -8,7 +8,7 @@ namespace FailedTests
     {
         [TestMethod]
         [TestCategory("failed")]
-        public void With Space()
+        public void With_Underscore()
         {
             Assert.Fail("Failed as expected");
         }
